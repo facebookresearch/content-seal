@@ -89,9 +89,17 @@ Watermarks embedded **during content generation** by modifying model behavior or
 
 </div>
 
+### Text
+
 | Model | Description | Resources |
 |-------|-------------|-----------|
-| **DISTSEAL** | Unified latent space watermarking that enables 20× speedup over pixel methods and secures open-source models via in-model distillation | [Paper](https://ai.meta.com/research/publications/distilling-latent-space-watermarkers-into-generative-image-models/) • [Code](https://github.com/facebookresearch/distseal) |
+| **TextSeal** | SOTA LLM watermark with dual-key Gumbel-max sampling, entropy-weighted scoring, and multi-region localization. Distortion-free, preserves reasoning and benchmark performance, detectable when diluted in human text, radioactive through distillation | [Paper](https://arxiv.org/abs/2605.12456) • [Code](https://github.com/facebookresearch/textseal) |
+
+### Image & Audio
+
+| Model | Description | Resources |
+|-------|-------------|-----------|
+| **DistSeal** | Unified latent space watermarking that enables 20× speedup over pixel methods and secures open-source models via in-model distillation | [Paper](https://ai.meta.com/research/publications/distilling-latent-space-watermarkers-into-generative-image-models/) • [Code](https://github.com/facebookresearch/distseal) |
 | **Stable Signature** | Roots the watermark in the model's latent decoder for tracing the outputs of latent generative models | [Paper](https://arxiv.org/abs/2303.15435) • [Code](https://github.com/facebookresearch/stable_signature) |
 | **WMAR** | Watermarking for autoregressive image generation models | [Paper](https://arxiv.org/abs/2506.16349) • [Code](https://github.com/facebookresearch/wmar) |
 

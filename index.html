@@ -280,46 +280,78 @@
         </video>
       </div>
       
-      <!-- Papers List -->
-      <div class="papers-list">
-        <div class="paper-item-flat">
-          <div class="paper-header">
-            <h5>Dist&nbsp;Seal</h5>
-          </div>
-          <div class="paper-description-row">
-            <p>Unified latent space watermarking that enables 20× speedup over pixel methods and secures open-source models via in-model distillation.</p>
-            <div class="paper-actions-inline">
-              <a href="https://arxiv.org/abs/2601.16140" class="research-btn-labeled">📄 Paper</a>
-              <a href="https://github.com/facebookresearch/distseal" class="research-btn-labeled">💻 Code</a>
-            </div>
-          </div>
-        </div>
+      <!-- Modality Categories -->
+      <div class="research-categories">
         
-        <div class="paper-item-flat">
-          <div class="paper-header">
-            <h5>Stable Signature</h5>
+        <!-- Text Category -->
+        <div class="research-category">
+          <div class="category-header" onclick="toggleCategory(this)">
+            <div class="category-title">
+              <span class="category-icon">📝</span>
+              <h4>Text</h4>
+            </div>
+            <span class="category-toggle">+</span>
           </div>
-          <div class="paper-description-row">
-            <p>Roots the watermark in the model's latent decoder for tracing the outputs of latent generative models.</p>
-            <div class="paper-actions-inline">
-              <a href="https://arxiv.org/abs/2303.15435" class="btn-minimal">📄 Paper</a>
-              <a href="https://github.com/facebookresearch/stable_signature" class="btn-minimal">💻 Code</a>
+          <div class="category-content expanded">
+            <div class="paper-item featured">
+              <h5>Text&nbsp;Seal</h5>
+              <div class="paper-content-row">
+                <p>State-of-the-art LLM watermark with dual-key Gumbel-max sampling, entropy-weighted scoring, and multi-region localization. Distortion-free, preserves reasoning performance, robust to dilution, and radioactive through distillation.</p>
+                <div class="paper-actions">
+                  <a href="https://arxiv.org/abs/2605.12456" class="research-btn-labeled">📄 Paper</a>
+                  <a href="https://github.com/facebookresearch/textseal" class="research-btn-labeled">💻 Code</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="paper-item-flat">
-          <div class="paper-header">
-            <h5>WMAR</h5>
+        <!-- Image & Audio Category -->
+        <div class="research-category">
+          <div class="category-header" onclick="toggleCategory(this)">
+            <div class="category-title">
+              <span class="category-icon">🎬</span>
+              <h4>Image & Audio</h4>
+            </div>
+            <span class="category-toggle">+</span>
           </div>
-          <div class="paper-description-row">
-            <p>Watermarking for autoregressive image generation models.</p>
-            <div class="paper-actions-inline">
-              <a href="https://arxiv.org/abs/2506.16349" class="btn-minimal">📄 Paper</a>
-              <a href="https://github.com/facebookresearch/wmar" class="btn-minimal">💻 Code</a>
+          <div class="category-content expanded">
+            <!-- Featured Papers -->
+            <div class="paper-item featured">
+              <h5>Dist&nbsp;Seal</h5>
+              <div class="paper-content-row">
+                <p>Unified latent space watermarking that enables 20× speedup over pixel methods and secures open-source models via in-model distillation.</p>
+                <div class="paper-actions">
+                  <a href="https://arxiv.org/abs/2601.16140" class="research-btn-labeled">📄 Paper</a>
+                  <a href="https://github.com/facebookresearch/distseal" class="research-btn-labeled">💻 Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="paper-item featured">
+              <h5>Stable Signature</h5>
+              <div class="paper-content-row">
+                <p>Roots the watermark in the model's latent decoder for tracing the outputs of latent generative models.</p>
+                <div class="paper-actions">
+                  <a href="https://arxiv.org/abs/2303.15435" class="research-btn-labeled">📄 Paper</a>
+                  <a href="https://github.com/facebookresearch/stable_signature" class="research-btn-labeled">💻 Code</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="paper-item featured">
+              <h5>WMAR</h5>
+              <div class="paper-content-row">
+                <p>Watermarking for autoregressive image generation models.</p>
+                <div class="paper-actions">
+                  <a href="https://arxiv.org/abs/2506.16349" class="research-btn-labeled">📄 Paper</a>
+                  <a href="https://github.com/facebookresearch/wmar" class="research-btn-labeled">💻 Code</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 
