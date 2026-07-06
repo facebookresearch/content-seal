@@ -103,8 +103,16 @@ Watermarks embedded **during content generation** by modifying model behavior or
 | **Stable Signature** | Roots the watermark in the model's latent decoder for tracing the outputs of latent generative models | [Paper](https://arxiv.org/abs/2303.15435) • [Code](https://github.com/facebookresearch/stable_signature) |
 | **WMAR** | Watermarking for autoregressive image generation models | [Paper](https://arxiv.org/abs/2506.16349) • [Code](https://github.com/facebookresearch/wmar) |
 
+### Radioactivity
+
+| Research | Description | Resources |
+|----------|-------------|-----------|
+| **Radioactive watermarks** | Designed to detect if a language model was trained on synthetic text by detecting weak residuals of watermark signals in fine-tuned LLMs, with high confidence detection even when as little as 5% of training text is watermarked | [Paper](https://arxiv.org/abs/2402.14904) • [Code](https://github.com/facebookresearch/radioactive-watermark) |
+| **Detecting benchmark contamination through watermarking** | Watermarks benchmarks before release to detect if models were trained on test sets, using theoretically grounded statistical tests to identify contamination while preserving benchmark utility | [Paper](https://arxiv.org/abs/2502.17259) • [Code](https://github.com/facebookresearch/textseal) |
+
 ---
 
+<!--
 ## 📊 Dataset Watermarking
 
 Watermarks embedded **into training datasets** to track data provenance and detect unauthorized usage.
@@ -119,6 +127,7 @@ Watermarks embedded **into training datasets** to track data provenance and dete
 | **Detecting benchmark contamination through watermarking** | Watermarks benchmarks before release to detect if models were trained on test sets, using theoretically grounded statistical tests to identify contamination while preserving benchmark utility | [Paper](https://arxiv.org/abs/2502.17259) • [Code](https://github.com/facebookresearch/textseal) |
 
 ---
+-->
 
 ## 🔒 Watermark Security
 
