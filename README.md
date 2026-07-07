@@ -30,8 +30,6 @@ Content Seal is a comprehensive framework for invisible, robust watermarking acr
 - [Watermark Security](#watermark-security)
 - [License](#license)
 
-Each entry links to its paper; the badge links to the GitHub repository (and shows its stars).
-
 ---
 
 ## Post-Hoc Watermarking
