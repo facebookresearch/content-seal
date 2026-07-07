@@ -9,7 +9,7 @@
 [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://facebookresearch.github.io/meta-seal)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**[Visit the Content Seal Website →](https://facebookresearch.github.io/meta-seal)**
+**[Visit the Content Seal Website →](https://facebookresearch.github.io/content-seal)**
 
 </div>
 
